@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+header section p {
+  color: rgb(215, 215, 246);
+  font-size: 25px;
+  font-weight: 300;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header section p span {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: aqua;
+}
+
+#header {
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+}
+
+header  span li {
+  color: beige;
+  list-style: none;
+  font-family: 'Edu QLD Beginner', cursive;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#header a[href] {
+  text-decoration: none;
+  margin: 30px;
+  color: blanchedalmond;
+}
+
+
+
+
+#header span  {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 30px;
+}
+
+
+
+main {
+    display: flex;
+    padding: 90px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    /* margin: 0 auto; */
+    font-size: 40px;
+    color: bisque;
+    line-height: 1.5;
+    padding: 15px 10px;
+}
+
+#main span {
+    font-family: 'Work Sans', sans-serif;
+    color: blue;
+}
+
+
+
+
